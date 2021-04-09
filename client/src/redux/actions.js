@@ -1,6 +1,6 @@
 import { LOGIN, LOGOUT, REGISTER, GET_IMAGES } from './types'
 
-const SERVER = 'http://localhost:5000'
+const SERVER = 'https://sheltered-hollows-87382.herokuapp.com'
 
 export function makeLogin(email, password) {
     return async dispatch => {
