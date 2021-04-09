@@ -8,7 +8,7 @@ const UploadZone = props => {
 
     const params = {
         name: 'file',
-        action: 'http://localhost:5000/api/images/',
+        action: 'https://sheltered-hollows-87382.herokuapp.com/api/images/',
         headers: {
             'auth-token': props.authToken
         },
